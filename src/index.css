@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+.head {
+  color: white;
+  background-image: linear-gradient(to right, #672280, #c656f3);
+}
+.comp {
+  position: relative;
+  font-size: 100%;
+  display: flex;
+  margin: 30px;
+  margin-block: 0px;
+}
+.headh4 {
+  position: absolute;
+  right: 0px;
+  font-size: 130%;
+}
+.headimg {
+  width: 50px;
+}
+
+.input {
+  display: flex;
+  height: 140px;
+  margin: 0px 35px 0px 30px;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+}
+.input > div {
+  width: 40%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 30px;
+}
+.fbox,
+.sbox {
+  font-size: 30px;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  text-indent: 10px;
+}
+.fbox:focus,
+.sbox:focus {
+  border: 10px solid rgba(0, 0, 0, 255);
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 30px 0px 30px;
+}
+.btntxt {
+  background-image: linear-gradient(to right, #672280, #c656f3);
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 150%;
+  cursor: auto;
+  margin-block: 10px;
+}
+.btntxt:hover {
+  background-image: linear-gradient(to right, #9752b0, #e676f3);
+  height: 100px;
+}
+.btntxt:active {
+  background-image: linear-gradient(to right, #572280, #9626a3);
+  background-color: #8616c3;
+}
