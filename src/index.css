@@ -48,7 +48,7 @@ body {
 }
 .fbox:focus,
 .sbox:focus {
-  border: 10px solid rgba(0, 0, 0, 255);
+  border: 2px solid rgba(0, 0, 0, 255);
 }
 
 .btn {
@@ -68,7 +68,7 @@ body {
 }
 .btntxt:hover {
   background-image: linear-gradient(to right, #9752b0, #e676f3);
-  height: 100px;
+  height: 80px;
 }
 .btntxt:active {
   background-image: linear-gradient(to right, #572280, #9626a3);
