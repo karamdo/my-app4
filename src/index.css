@@ -48,7 +48,7 @@ body {
 }
 .fbox:focus,
 .sbox:focus {
-  border: 10px solid rgba(0, 0, 0, 255);
+  border: 2px solid rgba(0, 0, 0, 255);
 }
 
 .btn {
@@ -68,9 +68,39 @@ body {
 }
 .btntxt:hover {
   background-image: linear-gradient(to right, #9752b0, #e676f3);
-  height: 100px;
+  /* height: 80px; */
 }
 .btntxt:active {
   background-image: linear-gradient(to right, #572280, #9626a3);
   background-color: #8616c3;
+}
+
+.img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnimg {
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  z-index: -1;
+}
+
+.img > h1 {
+  font-size: 60px;
+  position:absolute;
+  color: antiquewhite;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000, 
+                1px -1px 0 #000,
+               -1px -1px 0 #000;
+}
+.fh{
+  top :-30px ;
+}
+.sh{
+  top :380px ;
 }
