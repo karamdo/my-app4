@@ -91,16 +91,14 @@ body {
 
 .img > h1 {
   font-size: 60px;
-  position:absolute;
+  position: absolute;
   color: antiquewhite;
-  text-shadow: -1px 1px 0 #000,
-                1px 1px 0 #000, 
-                1px -1px 0 #000,
-               -1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
-.fh{
-  top :-30px ;
+.fh {
+  top: -30px;
 }
-.sh{
-  top :380px ;
+.sh {
+  top: 380px;
 }
